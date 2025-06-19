@@ -6,7 +6,7 @@ const Certificate = () => {
       id: 1,
       title: "Full Stack Web Development",
       issuer: "Tech Academy",
-      date: "2024",
+      date: "2025",
       description: "Comprehensive certification covering modern web technologies including React, Node.js, databases, and deployment strategies.",
       skills: ["React", "Node.js", "MongoDB", "REST APIs"]
     },
@@ -14,19 +14,20 @@ const Certificate = () => {
       id: 2,
       title: "SQL for Data Management",
       issuer: "HackerRank",
-      date: "2023",
+      date: "2024",
       description: "Certification demonstrating proficiency in SQL queries, data manipulation, and database management using MySQL and PostgreSQL.",
       skills: ["SQL", "MySQL", "Data Manipulation"]
     }
     ,
     {
       id: 3,
-      title: "Cloud Computing Architecture",
-      issuer: "Cloud Solutions Corp",
-      date: "2023",
-      description: "Professional certification in cloud infrastructure design, deployment, and management across multiple platforms.",
-      skills: ["AWS", "Docker", "Kubernetes", "DevOps"]
+      title: "Problem Solving",
+      issuer: "HackerRank",
+      date: "2024",
+      description: "Certification showcasing strong analytical and algorithmic thinking through solving data structures and algorithm challenges.",
+      skills: ["Algorithms", "Data Structures", "Problem Solving"]
     }
+    
   ]);
 
   const [certImages, setCertImages] = useState({
