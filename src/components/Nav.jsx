@@ -3,20 +3,20 @@ import React from 'react';
 const Nav = () => {
   function certificate() {
     window.scrollTo({
-      top: 2200,
+      top: 2000,
       behavior: 'smooth'
     });
   }
   function contact() {
     window.scrollTo({
-      top: 3000,
+      top: 2900,
       behavior: 'smooth'
     });
   }
 
   function portfolio() {
     window.scrollTo({
-      top: 1200,
+      top: 1000,
       behavior: 'smooth'
     });
   }
