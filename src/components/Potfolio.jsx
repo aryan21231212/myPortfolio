@@ -5,7 +5,7 @@ const Potfolio = () => {
   return (
     <>
 
-    <h1 style={{letterSpacing:"1.2px", marginTop:"20rem"}} className='text-center'>Portfolio</h1>
+    <h1 style={{letterSpacing:"1.2px", marginTop:"10rem"}} className='text-center'>Portfolio</h1>
       <div style={{display:"flex",justifyContent:"center"}} className="main mt-5">
       <div className='box'>
         
