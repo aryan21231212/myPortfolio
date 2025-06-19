@@ -1,25 +1,31 @@
 import React from 'react';
 
 const Nav = () => {
+  function getScrollOffset(baseOffset) {
+    return window.innerWidth < 568 ? baseOffset + 1400 : baseOffset;
+  }
+  
   function certificate() {
     window.scrollTo({
-      top: 2000,
+      top: getScrollOffset(2000),
       behavior: 'smooth'
     });
   }
+  
   function contact() {
     window.scrollTo({
-      top: 2900,
+      top: getScrollOffset(2900),
       behavior: 'smooth'
     });
   }
-
+  
   function portfolio() {
     window.scrollTo({
-      top: 1000,
+      top: getScrollOffset(1000),
       behavior: 'smooth'
     });
   }
+  
 
   return (
     <>
